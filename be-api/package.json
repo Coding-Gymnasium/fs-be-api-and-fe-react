@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "google auth nodejs express api",
   "main": "index.js",
-  "type": "module",
   "scripts": {
     "dev": "nodemon --exec babel-node src/index.js",
     "clean": "rm -rf ./build && mkdir build",
