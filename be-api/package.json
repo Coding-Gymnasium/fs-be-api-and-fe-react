@@ -16,6 +16,7 @@
   "author": "Nico",
   "license": "ISC",
   "dependencies": {
+    "@babel/eslint-parser": "^7.16.5",
     "body-parser": "^1.19.1",
     "cors": "^2.8.5",
     "dotenv": "^10.0.0",
@@ -23,7 +24,6 @@
     "jsonwebtoken": "^8.5.1",
     "morgan": "^1.10.0",
     "passport": "^0.5.2",
-    "passport-google-token": "^0.1.2",
     "pg": "^8.7.1",
     "sequelize": "^6.12.5"
   },
@@ -36,8 +36,10 @@
     "@babel/preset-env": "^7.16.7",
     "@babel/register": "^7.16.7",
     "@babel/runtime": "^7.16.7",
+    "@types/passport": "^1.0.7",
     "babel-node": "^0.0.1-security",
     "nodemon": "^2.0.15",
+    "passport-google-token": "^0.1.2",
     "sequelize-cli": "^6.3.0"
   }
 }
